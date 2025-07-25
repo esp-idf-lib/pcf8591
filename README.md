@@ -1,5 +1,9 @@
 # esp-idf-lib/pcf8591
 
+[![Build examples](https://github.com/esp-idf-lib/pcf8591/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/pcf8591/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/pcf8591/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/pcf8591/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/pcf8591/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/pcf8591/actions/workflows//validate-component.yml)
+
 Driver for 8-bit ADC and an 8-bit DAC PCF8591.
 
 * [Documentation](https://esp-idf-lib.github.io/pcf8591/)
@@ -11,7 +15,7 @@ Driver for 8-bit ADC and an 8-bit DAC PCF8591.
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/pcf8591^1.0.0
+idf.py add-dependency esp-idf-lib/pcf8591
 ```
 
 ## Support
