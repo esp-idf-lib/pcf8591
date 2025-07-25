@@ -11,7 +11,7 @@ Driver for 8-bit ADC and an 8-bit DAC PCF8591.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/pcf8591^1.0.0
+idf.py add-dependency esp-idf-lib/pcf8591^1.0.0
 ```
 
 ## Support
