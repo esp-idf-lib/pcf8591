@@ -56,7 +56,8 @@ extern "C" {
 /**
  * Analog inputs configuration, see datasheet
  */
-typedef enum {
+typedef enum
+{
     PCF8591_IC_4_SINGLES = 0,   //!< Four single-ended inputs
     PCF8591_IC_DIFF,            //!< Three differential inputs
     PCF8591_IC_2_SINGLES_DIFF,  //!< Two single-ended and differential mixed

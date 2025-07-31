@@ -97,9 +97,9 @@ esp_err_t pcf8591_read(i2c_dev_t *dev, pcf8591_input_conf_t conf, uint8_t channe
     }
 
     uint8_t control_reg =
-            ((conf << CTRL_AD_IN_PRG) & CTRL_AD_IN_PRG_MASK) |
-            (channel & CTRL_AD_CH_MASK) |
-            BV(CTRL_DA_OUT_EN);
+        ((conf << CTRL_AD_IN_PRG) & CTRL_AD_IN_PRG_MASK) |
+        (channel & CTRL_AD_CH_MASK) |
+        BV(CTRL_DA_OUT_EN);
 
     I2C_DEV_TAKE_MUTEX(dev);
     I2C_DEV_CHECK(dev, i2c_dev_read_reg(dev, control_reg, value, 1));
