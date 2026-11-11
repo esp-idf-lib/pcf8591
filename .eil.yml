@@ -1,7 +1,7 @@
 ---
 name: pcf8591
 description: Driver for 8-bit ADC and an 8-bit DAC PCF8591
-version: 1.0.7
+version: 1.0.8
 groups:
   - adc-dac
 code_owners: UncleRus
@@ -10,18 +10,7 @@ depends:
   - log
   - esp_idf_lib_helpers
 thread_safe: yes
-targets:
-  - esp32
-  - esp32s2
-  - esp32c3
-  - esp32s3
-  - esp32c2
-  - esp32c6
-  - esp32h2
-  - esp32p4
-  - esp32c5
-  - esp32c61
-license: BSD-3
+license: BSD-3-Clause
 copyrights:
   - name: PhamNgocT
     year: 2017
