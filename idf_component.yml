@@ -1,7 +1,7 @@
 ---
 version: 1.0.8
 description: Driver for 8-bit ADC and an 8-bit DAC PCF8591
-license: BSD-3
+license: BSD-3-Clause
 dependencies:
   esp-idf-lib/i2cdev:
     version: "*"
